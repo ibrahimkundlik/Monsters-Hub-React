@@ -1,0 +1,27 @@
+.card-container {
+	display: flex;
+	flex-flow: column nowrap;
+	background-color: #7bffd39a;
+	border: 1px solid #005f3f;
+	border-radius: 0.5rem;
+	padding: 0 2rem 2rem 2rem;
+	margin: 1rem;
+	width: 100%;
+	transition: all ease-in-out 0.2s;
+}
+.card-container:hover {
+	transform: scale(1.05);
+}
+.card-container h2 {
+	margin: 0.5rem 0;
+}
+@media screen and (min-width: 768px) {
+	.card-container {
+		width: 40%;
+	}
+}
+@media screen and (min-width: 992px) {
+	.card-container {
+		width: 29%;
+	}
+}
