@@ -30,7 +30,7 @@ class App extends Component {
 
 		return (
 			<div className="App">
-				<h1>Monsters Hub</h1>
+				<h1>Monsters Hub - React</h1>
 				<InputSearch
 					placeholder="Search Monsters"
 					handleChange={this.handleChange}
